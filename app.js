@@ -7,7 +7,7 @@
 let lista = [];
 let numeroSecreto = gerarNumero();
 let tentativas = 1;
-let limite = 10;
+let limite = 100;
 
 function exibirTexto(tag, texto) {
     let campo = document.querySelector(tag);
@@ -17,7 +17,7 @@ function exibirTexto(tag, texto) {
 
 function msgInicial(){
     exibirTexto('h1', 'Jogo do numero secreto');
-    exibirTexto('p', 'Escolha um numero entre 1 e 10');
+    exibirTexto('p', 'Escolha um numero entre 1 e 100');
 }
 
 msgInicial(); 
